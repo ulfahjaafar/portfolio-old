@@ -162,6 +162,14 @@ html{
   box-shadow: 0 12px 24px rgba(0, 0, 0, 0.08) !important;
 }
 
+/* ---------showcase-------- */
+.showcase-img {
+  height: 200px;
+  object-fit: contain; /* atau 'cover' jika ingin gambar memenuhi seluruh area */
+  width: 100%;
+  background-color: #f8f9fa; /* latar belakang netral jika gambar agak kosong */
+}
+
 /* ---------contact-------- */
 #contact{
     background-color: #fff;
