@@ -165,9 +165,9 @@ html{
 /* ---------showcase-------- */
 .showcase-img {
   height: 200px;
-  object-fit: contain; /* atau 'cover' jika ingin gambar memenuhi seluruh area */
+  object-fit: contain;
   width: 100%;
-  background-color: #f8f9fa; /* latar belakang netral jika gambar agak kosong */
+  background-color: #f8f9fa;
 }
 
 /* ---------contact-------- */
