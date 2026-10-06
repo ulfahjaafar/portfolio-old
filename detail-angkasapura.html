@@ -7,6 +7,16 @@
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/e516f742f1.js" crossorigin="anonymous"></script>
+    <style>
+      /* Style untuk menyamakan ukuran kolom & gambar showcase */
+      .showcase-img {
+        height: 190px;
+        object-fit: contain; /* Menjaga rasio foto asli agar tidak terdistorsi */
+        width: 100%;
+        background-color: #f8f9fa;
+        padding: 4px;
+      }
+    </style>
   </head>
   <body>
     
@@ -89,28 +99,39 @@
       </div>
     </div>
 
-    <!-- Section 2: Certificate & Work Deliverables -->
+    <!-- Section 2: Certificate & Work Deliverables (3 Kolom) -->
     <div class="row mb-5">
       <div class="col-lg-12">
         <h3 class="h5 fw-bold text-dark mb-3"><i class="fa-solid fa-file-certificate text-danger me-2"></i>Certificate & Dashboard Showcase</h3>
         <div class="row g-4">
-          <!-- Card Sertifikat -->
-          <div class="col-md-6">
-            <div class="card border-0 shadow-sm p-3 text-center">
-              <img src="images/sertifikat-ap1.jpg" class="img-fluid rounded mb-3" alt="Sertifikat Magang Angkasa Pura">
+          
+          <!-- Card 1: Sertifikat Magang -->
+          <div class="col-lg-4 col-md-6">
+            <div class="card border-0 shadow-sm p-3 text-center h-100">
+              <img src="images/sertifikat-ap1.jpg" class="img-fluid rounded mb-3 showcase-img" alt="Sertifikat Magang Angkasa Pura">
               <h5 class="h6 fw-bold">Internship Completion Certificate</h5>
-              <p class="small text-muted">Sertifikat resmi selesai magang dari PT Angkasa Pura Indonesia.</p>
+              <p class="small text-muted mb-0">Sertifikat resmi selesai magang dari PT Angkasa Pura Indonesia.</p>
             </div>
           </div>
 
-          <!-- Card Tangkapan Layar Dashboard / Project -->
-          <div class="col-md-6">
-            <div class="card border-0 shadow-sm p-3 text-center">
-              <img src="images/rshiny.jpg" class="img-fluid rounded mb-3" alt="Dashboard R Shiny Preview">
+          <!-- Card 2: R Shiny Sistem -->
+          <div class="col-lg-4 col-md-6">
+            <div class="card border-0 shadow-sm p-3 text-center h-100">
+              <img src="images/rshiny.jpg" class="img-fluid rounded mb-3 showcase-img" alt="R Shiny Forecasting System">
               <h5 class="h6 fw-bold">R Shiny Forecasting System</h5>
-              <p class="small text-muted">Preview antarmuka aplikasi peramalan penerbangan yang dikembangkan.</p>
+              <p class="small text-muted mb-0">Preview antarmuka aplikasi peramalan lalu lintas penerbangan yang dikembangkan.</p>
             </div>
           </div>
+
+          <!-- Card 3: Airside / Operational Dashboard -->
+          <div class="col-lg-4 col-md-6">
+            <div class="card border-0 shadow-sm p-3 text-center h-100">
+              <img src="images/dashboardyia.png" class="img-fluid rounded mb-3 showcase-img" alt="Airside Operational Dashboard">
+              <h5 class="h6 fw-bold">Airside Operational Dashboard</h5>
+              <p class="small text-muted mb-0">Tampilan dashboard visualisasi pergerakan pesawat dan penggunaan apron.</p>
+            </div>
+          </div>
+
         </div>
       </div>
     </div>
