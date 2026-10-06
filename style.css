@@ -170,6 +170,13 @@ html{
   background-color: #f8f9fa;
 }
 
+/* ---------dokumentasi-------- */
+.doc-img {
+  height: 220px;
+  object-fit: cover;
+  border-radius: 6px;
+}
+
 /* ---------contact-------- */
 #contact{
     background-color: #fff;
