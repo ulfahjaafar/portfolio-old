@@ -113,7 +113,6 @@ html{
     font-size: 50px;
 }
 #education .edu-card{
-    transition: transform 0.3s ease, box-shadow 0.3s ease;
     background-color: #f8f9fa;
     border-radius: 16px;
 }
@@ -148,7 +147,6 @@ html{
 }
 
 #experience .exp-card {
-  transition: transform 0.3s ease, box-shadow 0.3s ease;
   background-color: #f8f9fa;
   border-radius: 16px;
 }
