@@ -117,10 +117,6 @@ html{
     background-color: #f8f9fa;
     border-radius: 16px;
 }
-#education .edu-card:hover{
-    transform: translateY(-5px);
-    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.08) !important;
-}
 .edu-logo-wrapper{
     width: 130px;
     height: 130px;
@@ -155,11 +151,6 @@ html{
   transition: transform 0.3s ease, box-shadow 0.3s ease;
   background-color: #f8f9fa;
   border-radius: 16px;
-}
-
-#experience .exp-card:hover {
-  transform: translateY(-5px);
-  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.08) !important;
 }
 
 /* ---------showcase-------- */
