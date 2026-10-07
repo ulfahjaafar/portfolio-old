@@ -14,7 +14,7 @@ html{
 
 /*---navbar---*/
 .navbar-nav {
-    gap: 1.5rem;
+    gap: 3rem;
 }
 #home{
     background-color: #fff;
