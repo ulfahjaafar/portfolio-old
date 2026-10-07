@@ -14,7 +14,11 @@ html{
 
 /*---navbar---*/
 .navbar-nav {
-    gap: 3rem;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    max-width: 450px;
+    margin-left: auto;
 }
 #home{
     background-color: #fff;
